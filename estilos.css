@@ -18,7 +18,16 @@ nav a{
 }
 
 
-
+.navbar-nav{
+    padding: 1em;
+}
+.nav-item{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background-color: rgb(23, 49, 86);
+    margin-left: 50px;
+    border-radius: 15%;
+}
 
 
 #submenu{
@@ -53,11 +62,17 @@ padding-bottom: 5%;
   object-fit: cover;
   height: 420px;
 }
+
 footer {
+    font-weight: 500;
+    margin-top: 2em;
     background-color: rgb(51, 59, 82);
     display:flex;
     justify-content: space-between;
 }
 footer div {
     padding-top: 2em;
+}
+footer img {
+    width: 100px;
 }
