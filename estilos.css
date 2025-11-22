@@ -6,7 +6,6 @@ body{
     
 }
 
-
 nav{
 
     justify-content: space-between;
@@ -16,7 +15,6 @@ nav a{
     padding: 1.2%;
     
 }
-
 
 .navbar-nav{
     padding: 1em;
@@ -28,7 +26,6 @@ nav a{
     margin-left: 50px;
     border-radius: 15%;
 }
-
 
 #submenu{
     display: none;
@@ -52,8 +49,6 @@ padding-right: 20%;
 padding-bottom: 5%;
 }
 
-
-
 .img-thumbnail{
     width: 200px;
 }
@@ -75,4 +70,7 @@ footer div {
 }
 footer img {
     width: 100px;
+}
+footer p {
+    margin-top: 1em;
 }
