@@ -4,5 +4,5 @@
 Participantes del grupo:
 - Jacobo
 - Luis
-- Daniel
-- Adrián. 
+- Daniel Orlando Asturizaga Mamani.
+- Adrián Ernesto Rodríguez Morales. 
