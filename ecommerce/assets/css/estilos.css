@@ -1,3 +1,41 @@
+/*Animacion al agregar al carrito*/
+.animar-agregado {
+    animation: bounce 0.5s ease;
+}
+
+@keyframes bounce {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+/* Fade-in en las cards*/
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s forwards;
+}
+
+@keyframes fadeInUp {
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/*Notificaciones avanzadas*/
+.toast-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #333;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  opacity: 0;
+  transition: 0.4s;
+  pointer-events: none;
+  font-size: 14px;
+  z-index: 9999;
+}
+
 /*
 body{
     font-family: 'Lato', Arial, Helvetica, sans-serif;
