@@ -2,61 +2,67 @@
 <html lang="es" data-bs-theme="dark">
 <head>
     <meta charset="utf-8">
-    <title>Tienda virtual</title>
-    <link rel="stylesheet" href="./estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda virtual - Moda</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-  <header class="cabeza">
-    <h1>Su tienda amiga</h1>
-    <nav>
-        <ul>
-          <li><a href="index.html">Inicio</a></li>  
-          <li><a href="Moda.html">Moda</a></li>
-          <li><a href="tecnologia.html">tecnologia</a></li>
-          <li><a href="juegos.html">juegos</a></li>
-          <li><a href="carrito.html">carrtio</a></li>
-        </ul>
-    </nav>
+  <header class="cabeza bg-dark text-white p-3 mb-4">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1>Su tienda amiga</h1>
+        <nav>
+            <ul class="nav">
+              <li class="nav-item"><a class="nav-link text-white" href="index.html">Inicio</a></li>  
+              <li class="nav-item"><a class="nav-link text-white" href="Moda.html">Moda</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="tecnologia.html">Tecnologia</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="juegos.html">Juegos</a></li>
+              <li class="nav-item"><a class="nav-link text-warning" href="carrito.html">
+                <i class="fa fa-shopping-cart"></i> Carrito
+                </a>
+              </li>
+            </ul>
+        </nav>
+    </div>
   </header>
 
-  <main>
+  <main class="container">
     <section class="todos-los-productos">
-      <h2>Moda</h2>
-      <div class="contenedor-productos">
-        <div class="productos">
+      <h2 class="text-center mb-4">Moda</h2>
+      <div id="contenedor-productos" class="row g-3">
         <!-- Aquí van todos los productos -->
-         <img src="assets/img/imag_2.jpg" alt="300px" width="300px">
-         <div>
-          <h3 class="productos-titulo">Producto 1</h3>
-          <p class="productos-precio">Precio: $100.00</p>
-          <button class="btn-agregar-carrito">Agregar al Carrito</button>
-         </div>
-        </div>
       </div>
+    </section>
   </main>
   
-  <footer>
-    <section class="Estudiantes">
-      <div>
-        <h3>Estudiantes:</h3>
-        <ul>
-          <li>adrinuk</li>
-          <li>luis</li>
-          <li>jacob</li>
-          <li>daniel</li>
-        </ul>
-      </div>
-    </section>
-    <section class="redes-sociales">
-      <div>
-        <h3>redes sociales</h3>
-        <ul>
-          <li><a href="#">git</a></li>
-          <li><a href="#">git</a></li>
-          <li><a href="#">git</a></li>
-      </div>
-    </section>
+  <footer class="bg-dark text-white mt-4 p-4">
+    <div class="container d-flex justify-content-between flex-wrap">
+      <section class="estudiantes">
+        <div>
+          <h3>Estudiantes:</h3>
+          <ul>
+            <li>adrinuk</li>
+            <li>luis</li>
+            <li>jacob</li>
+            <li>daniel</li>
+          </ul>
+        </div>
+      </section>
+      <section class="redes-sociales">
+        <div>
+          <h3>Redes sociales</h3>
+          <ul>
+            <li><a href="#" class="text-white">GitHub</a></li>
+            <li><a href="#" class="text-white">GitHub</a></li>
+            <li><a href="#" class="text-white">GitHub</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
   </footer>
-  <script src="assets/js/scripts.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/carrito.js"></script>
+  <script src="assets/js/moda.js"></script>
 </body>
 </html>

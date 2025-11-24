@@ -1,0 +1,97 @@
+/*
+body{
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+h2{
+    padding: 20px;
+}
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1B4079;
+    color: white;
+}
+li{
+        list-style-type: none;
+}
+
+footer svg{
+    width: 35px;
+    fill: white;
+    margin: 0.5em;
+}
+svg{
+    width: 30px;
+    fill: #1B4079;
+    margin-top: 10px;
+    margin-right: 60px;
+    align-self: center;
+    transition: 0.4s;
+}
+svg:hover{
+    fill: red;
+}
+.Logo{
+    background-color: #1B4079;
+    color: white;
+    margin-bottom: -1em;
+}
+.Logo h1{
+    padding: 0.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar{
+    background-color: #1B4079;
+    color: white;
+}
+.nav-item{
+    padding-right: 7px;
+    padding-left: 7px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.nav-item:hover{
+    background-color: #4D7C8A;
+    border-radius: 15%;
+}
+
+.contenedor-productos{
+    display: flex;
+    justify-content: space-around; 
+    padding:2em;
+}
+.cuerpo{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), #8FAD88);
+}
+.btn {
+    background-color: #1B4079;
+    color: white;
+    margin-top: -20px;
+}
+.card{
+    margin-bottom: 2em;
+    align-self: center;
+}
+
+.productos-carrito{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    align-items: end;
+}
+.total-compra{
+    background-color: #48626a48;
+    border-radius: 20%;
+    padding: 1.5em;
+}
+
+@media screen and (max-width: 768px){
+    .contenedor-productos{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}*/
